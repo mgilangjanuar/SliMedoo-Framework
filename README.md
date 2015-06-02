@@ -17,7 +17,7 @@ Pada 'db/data.sqlite' sudah ada table book dengan id, dan title sebagai columnny
 
 2. Ketik 'sqlite3 database-baru.sqlite'
 
-3. Buat table misalnya 'CREATE TABLE book(id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL)'
+3. Buat table misalnya 'CREATE TABLE book(id INT PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL)'
 
 4. Atur kembali file 'config/config.php'
 
