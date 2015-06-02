@@ -7,8 +7,7 @@ SliMedoo adalah lightweight PHP framework yang merupakan hybrid Slim dan Medoo. 
 Download as zip repository ini dan lakukan semua control di index.php (silahkan jika ingin diubah misal menjadi /controller/function.php, etc). Dan untuk menampilkan halaman dari view cukup mengimplementasi 2 baris:
 
   $data = 'views/create.php';                   // halaman yang ingin ditampilkan
-  
-  include_once 'views/_default_template.php';   // template yang ingin digunakan
+    include_once 'views/_default_template.php';   // template yang ingin digunakan
 
 
 ## Konfigurasi Database
@@ -16,7 +15,7 @@ Pada 'db/data.sqlite' sudah ada table book dengan id, dan title sebagai columnny
 
 1. Arahkan terminal ke folder 'slimedoo/db'
 2. Ketik 'sqlite3 database-baru.sqlite'
-3. Buat table misalnya 'CREATE TABLE book(id INT PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL)'
+3. Buat table misalnya 'CREATE TABLE book(id INT PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL);'
 4. Atur kembali file 'config/config.php'
 5. Dan mulai tahap pengembangan dengan mengimplementasi file 'index.php' dan file-file yang ada di folder 'views'
 
